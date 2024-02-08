@@ -20,7 +20,7 @@ void loop()
   int button1State = digitalRead(3);
   int button2State = digitalRead(2);
   
-//checks variable reading and sends power to LED
+//checks variable reading and sends power to LED depending on the button's state
   if (button1State == LOW){
   	digitalWrite(13, HIGH);
   }
